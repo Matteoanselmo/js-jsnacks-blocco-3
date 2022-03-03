@@ -16,3 +16,19 @@ for(let i = 0; i < arrayNumber.length; i++){
     }
     
 }
+
+function somma(firstNumber , secondNumber){
+    if( (firstNumber + secondNumber) % 2 == 0 ){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+const userFirstNumber = parseInt(prompt('inserisci primo numero'));
+const userSecondNumber = parseInt(prompt('inserisci secondo numero'));
+if(somma(userFirstNumber , userSecondNumber)){
+    console.log('è pari');
+}else{
+    console.log('è dispari');
+}
