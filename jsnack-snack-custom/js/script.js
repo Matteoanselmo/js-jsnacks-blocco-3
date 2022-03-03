@@ -10,9 +10,9 @@ function oddOrEven(arrayInex){
 
 for(let i = 0; i < arrayNumber.length; i++){
     if(oddOrEven(arrayNumber[i])){
-        document.getElementById('rosso').innerHTML += arrayNumber[i];
+        document.getElementById('rosso').innerHTML += ` ${arrayNumber[i]} è pari <br>`;
     }else{
-        document.getElementById('verde').innerHTML += arrayNumber[i];
+        document.getElementById('verde').innerHTML += ` ${arrayNumber[i]} è dispari <br>`;
     }
     
 }
